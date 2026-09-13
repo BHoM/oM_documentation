@@ -1540,6 +1540,7 @@ title: IObject
     - BH.oM.Structure.Loads.[TimeHistoryLoadcase](/api/oM/Analytical/Structure/Loads/TimeHistoryLoadcase)
     - BH.oM.Structure.Loads.[UniformLoadSet](/api/oM/Analytical/Structure/Loads/UniformLoadSet)
     - BH.oM.Structure.Loads.[UniformLoadSetRecord](/api/oM/Analytical/Structure/Loads/UniformLoadSetRecord)
+    - BH.oM.Structure.Fragments.[ConnectionAllowance](/api/oM/Analytical/Structure/Fragments/ConnectionAllowance)
     - BH.oM.Structure.Fragments.[ReinforcementDensity](/api/oM/Analytical/Structure/Fragments/ReinforcementDensity)
     - BH.oM.Structure.Fragments.[SectionModifier](/api/oM/Analytical/Structure/Fragments/SectionModifier)
     - BH.oM.Structure.Fragments.[SurfacePropertyModifier](/api/oM/Analytical/Structure/Fragments/SurfacePropertyModifier)

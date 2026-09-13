@@ -27,6 +27,17 @@ An interface for opaque energy materials.
 
 ## Properties
 
+
+
+### Defining properties
+
+The following properties are defined on the interface
+
+| Name             | Type             | Description      | Quantity         |
+|------------------|------------------|------------------|------------------|
+| Identifier | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Unique identifier for this material. | - |
+
+
 ## Code and Schema
 
 ### C# implementation

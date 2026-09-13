@@ -21,6 +21,7 @@ title: IMaterialProperties
 ???+ bhom "The following interfaces are implementing this interface:"
 
     - BH.oM.Environment.MaterialFragments.[IEnvironmentMaterial](/api/oM/Analytical/Environment/MaterialFragments/IEnvironmentMaterial)
+    - BH.oM.LifeCycleAssessment.MaterialFragments.[IEnvironmentalFactorsProvider](/api/oM/Analytical/LifeCycleAssessment/MaterialFragments/IEnvironmentalFactorsProvider)
     - BH.oM.MEP.System.MaterialFragments.[IInsulationMaterial](/api/oM/Analytical/MEP/System/MaterialFragments/IInsulationMaterial)
     - BH.oM.Physical.Materials.[IDensityProvider](/api/oM/Physical/Physical/Materials/IDensityProvider)
     - BH.oM.Structure.MaterialFragments.[IIsotropic](/api/oM/Analytical/Structure/MaterialFragments/IIsotropic)

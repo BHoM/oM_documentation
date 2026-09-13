@@ -31,6 +31,7 @@ The following properties are defined on the class
 | Name | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | The name of this data type. | - |
 | Data_Type | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | The data type of this data type. | - |
 | BaseUnit | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | The base type of this data type. This is used if Data_Type is set to "GenericDataType". | - |
+| Type | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
 
 
 ### Inherited properties

@@ -14,6 +14,7 @@ Base interface for all classes able to used to evaluate LCA, namly the Environme
 
     -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
     -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
+    -  BH.oM.Physical.Materials.[IMaterialProperties](/api/oM/Physical/Physical/Materials/IMaterialProperties)
 
 
 ### Classes implementing this interface
@@ -32,6 +33,7 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 
 | Name             | Type             | Description      | Quantity         | Engine           |
 |------------------|------------------|------------------|------------------|------------------|
+| MaterialClassification | [MaterialClassification](/api/oM/Physical/Physical/Materials/MaterialClassification) | Evaluates the material classification of a material. | - | Matter_Engine |
 | MaterialEndOfLifeTreatment | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | Returns End of Life processing information contained within an EPD dataset. | - | LifeCycleAssessment_Engine |
 
 
@@ -40,7 +42,7 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ### C# implementation
 
 ``` C# title="C#"
-public interface IEnvironmentalFactorsProvider : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject
+public interface IEnvironmentalFactorsProvider : BH.oM.Base.IBHoMObject, BH.oM.Base.IObject, BH.oM.Physical.Materials.IMaterialProperties
 ```
 
 Assembly: LifeCycleAssessment_oM.dll

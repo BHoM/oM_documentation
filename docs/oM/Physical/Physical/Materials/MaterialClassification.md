@@ -1,24 +1,23 @@
 ---
-title: InsulationMaterial
+title: MaterialClassification
 ---
 
-# <small>BH.oM.MEP.System.MaterialFragments.</small>**InsulationMaterial**
+# <small>BH.oM.Physical.Materials.</small>**MaterialClassification**
 
-
+Represents a generic material by its category, type, grade, and constituent. This classification can be used to identify and group materials for various purposes, such as material selection, specification, and analysis.
+The classification can be put on a phsyical Material as a IMaterialProeprties or on a MaterialFragment as a IFragment.
 
 ## Class structure
 
 ### Implemented interfaces and base types
 
-???+ bhom "The InsulationMaterial is inheriting from the following base type(s) and implements the following interfaces:"
+???+ bhom "The MaterialClassification is inheriting from the following base type(s) and implements the following interfaces:"
 
     -  BH.oM.Base.[BHoMObject](/api/oM/Framework/Base/BHoMObject)
     -  BH.oM.Base.[IBHoMObject](/api/oM/Framework/Base/Interface/IBHoMObject)
     -  BH.oM.Base.[IObject](/api/oM/Framework/Base/Interface/IObject)
-    -  BH.oM.MEP.System.MaterialFragments.[IMEPMaterial](/api/oM/Analytical/MEP/System/MaterialFragments/IMEPMaterial)
-    -  BH.oM.MEP.System.MaterialFragments.[IInsulationMaterial](/api/oM/Analytical/MEP/System/MaterialFragments/IInsulationMaterial)
-    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
     -  BH.oM.Physical.Materials.[IMaterialProperties](/api/oM/Physical/Physical/Materials/IMaterialProperties)
+    -  BH.oM.Base.[IFragment](/api/oM/Framework/Base/Interface/IFragment)
 
 
 ## Properties
@@ -31,8 +30,10 @@ The following properties are defined on the class
 
 | Name             | Type             | Description      | Quantity         |
 |------------------|------------------|------------------|------------------|
-| RValue | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | RValue is the measure of the resistance of conductive heat loss by the insulation material. | - |
-| KValue | [double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0) | KValue is the measure of the insulation material's ability to conduct heat (W/m*K), the lower the KValue the better the ability to conduct heat. | - |
+| Category | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | The category of the material, e.g., 'Concrete', 'Steel', 'Wood', etc. | - |
+| Type | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | The type of the material, e.g., 'Reinforced', 'Prestressed', etc. | - |
+| Grade | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | The grade of the material, e.g., 'C30/37', 'S420', 'F175', etc. | - |
+| Constituent | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | The constituent of the material, e.g., Fly Ash, GGBS, etc. | - |
 
 
 ### Inherited properties
@@ -61,20 +62,18 @@ The following properties are defined as extension methods in one of the BHoM_Eng
 ### C# implementation
 
 ``` C# title="C#"
-public class InsulationMaterial : BH.oM.Base.BHoMObject,
+public class MaterialClassification : BH.oM.Base.BHoMObject,
 BH.oM.Base.IBHoMObject,
 BH.oM.Base.IObject,
-BH.oM.MEP.System.MaterialFragments.IMEPMaterial,
-BH.oM.MEP.System.MaterialFragments.IInsulationMaterial,
-BH.oM.Base.IFragment,
-BH.oM.Physical.Materials.IMaterialProperties
+BH.oM.Physical.Materials.IMaterialProperties,
+BH.oM.Base.IFragment
 ```
 
-Assembly: MEP_oM.dll
+Assembly: Physical_oM.dll
 
 The C# class definition is available on github:
 
-- [InsulationMaterial.cs](https://github.com/BHoM/BHoM/blob/develop/MEP_oM/System\MaterialFragments\InsulationMaterial.cs)
+- [MaterialClassification.cs](https://github.com/BHoM/BHoM/blob/develop/Physical_oM/Materials\MaterialClassification.cs)
 
 All history and changes of the class can be found by inspection the history.
 ### JSON Schema implementation
@@ -83,10 +82,10 @@ The object is defined as a JSON schema. You can validate a JSON instance against
 
 ``` json title="JSON Schema"
 {
- "$ref" : "https://raw.githubusercontent.com/BHoM/BHoM_JSONSchema/develop/MEP_oM/System/MaterialFragments/InsulationMaterial.json"
+ "$ref" : "https://raw.githubusercontent.com/BHoM/BHoM_JSONSchema/develop/Physical_oM/Materials/MaterialClassification.json"
 }
 ```
 
 The JSON Schema is available on github here:
 
-- [InsulationMaterial.json](https://github.com/BHoM/BHoM_JSONSchema/blob/develop/MEP_oM/System/MaterialFragments/InsulationMaterial.json)
+- [MaterialClassification.json](https://github.com/BHoM/BHoM_JSONSchema/blob/develop/Physical_oM/Materials/MaterialClassification.json)

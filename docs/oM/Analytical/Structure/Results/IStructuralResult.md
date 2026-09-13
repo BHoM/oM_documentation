@@ -73,6 +73,7 @@ Base interface for all structural results. Adds ModeNumber as a property in addi
     - BH.oM.Structure.Results.[NodeReaction](/api/oM/Analytical/Structure/Results/Nodal Results/NodeReaction)
     - BH.oM.Structure.Results.[NodeResult](/api/oM/Analytical/Structure/Results/Nodal Results/NodeResult)
     - BH.oM.Structure.Results.[NodeVelocity](/api/oM/Analytical/Structure/Results/Nodal Results/NodeVelocity)
+    - BH.oM.Structure.Design.[DesignResult](/api/oM/Analytical/Structure/Design/DesignResult)
 
 
 ## Properties

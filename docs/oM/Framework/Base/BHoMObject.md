@@ -385,6 +385,7 @@ title: BHoMObject
     - BH.oM.Physical.Reinforcement.BS8666.[ShapeCode99](/api/oM/Physical/Physical/Reinforcement/BS8666/ShapeCode99)
     - BH.oM.Physical.Materials.[GeneralMaterialTakeoff](/api/oM/Physical/Physical/Materials/GeneralMaterialTakeoff)
     - BH.oM.Physical.Materials.[Material](/api/oM/Physical/Physical/Materials/Material)
+    - BH.oM.Physical.Materials.[MaterialClassification](/api/oM/Physical/Physical/Materials/MaterialClassification)
     - BH.oM.Physical.Materials.[MaterialComposition](/api/oM/Physical/Physical/Materials/MaterialComposition)
     - BH.oM.Physical.Materials.[VolumetricMaterialTakeoff](/api/oM/Physical/Physical/Materials/VolumetricMaterialTakeoff)
     - BH.oM.Physical.FramingProperties.[ConstantFramingProperty](/api/oM/Physical/Physical/FramingProperties/ConstantFramingProperty)

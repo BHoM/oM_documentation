@@ -32,6 +32,7 @@ The following properties are defined on the class
 | Unit | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | The unit for this header object. | - |
 | AnalysisPeriod | [AnalysisPeriod](/api/oM/Adapter/LadybugTools/MetaData/AnalysisPeriod) | The analysis period associated with this header object. | - |
 | Metadata | [Dictionary](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.Dictionary-2?view=netstandard-2.0)&lt;[string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0), [object](https://learn.microsoft.com/en-us/dotnet/api/System.Object?view=netstandard-2.0)&gt; | The metadata associated with this header object. | - |
+| Type | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
 
 
 ### Inherited properties

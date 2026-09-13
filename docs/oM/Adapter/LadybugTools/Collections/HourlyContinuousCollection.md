@@ -30,6 +30,7 @@ The following properties are defined on the class
 |------------------|------------------|------------------|------------------|
 | Header | [Header](/api/oM/Adapter/LadybugTools/MetaData/Header) | An approximation of a Ladybug Header object. | - |
 | Values | [List](https://learn.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1?view=netstandard-2.0)&lt;[Nullable](https://learn.microsoft.com/en-us/dotnet/api/System.Nullable-1?view=netstandard-2.0)&lt;[double](https://learn.microsoft.com/en-us/dotnet/api/System.Double?view=netstandard-2.0)&gt;&gt; | A list of values. | - |
+| Type | [string](https://learn.microsoft.com/en-us/dotnet/api/System.String?view=netstandard-2.0) | - | - |
 
 
 ### Inherited properties
